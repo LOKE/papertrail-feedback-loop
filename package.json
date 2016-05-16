@@ -5,6 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "got": "^6.3.0",
+    "qs": "^6.2.0",
     "raw-body": "^2.1.6"
   },
   "devDependencies": {},
