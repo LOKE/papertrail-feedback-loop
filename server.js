@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
   getRawBody(req)
   .then(parseJson)
   .then(body => {
-    return Promise.all(body.events.map(event => processEvent));
+    return Promise.all(body.events.map(processEvent));
   })
   .then(() => {
     res.statusCode = 200;
