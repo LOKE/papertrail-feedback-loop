@@ -20,6 +20,7 @@ const server = http.createServer((req, res) => {
   .catch(err => {
     res.statusCode = 500;
     res.end('failed');
+    console.log(err.stack);
   })
 });
 
