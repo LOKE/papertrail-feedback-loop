@@ -1,0 +1,8 @@
+{
+  "check": {
+    "id": "papertrail-feedback",
+    "check": {
+      "ttl": "10m"
+    }
+  }
+}

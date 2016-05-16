@@ -1,0 +1,17 @@
+{
+  "name": "papertrail-feedback-loop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "got": "^6.3.0",
+    "raw-body": "^2.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dominic Smith",
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+MSG="pinging papertrail for feedback $(/bin/hostname)"
+
+/usr/bin/logger "$MSG"
